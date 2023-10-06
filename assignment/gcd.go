@@ -11,4 +11,4 @@ func gcd(x, y int) int {
 	x, y = y, x%y
 	}
 	return x
-	}
+}

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main(){
-	var three, four = returnThreeAndFour()
+	var three, four int = returnThreeAndFour()
 	fmt.Println(three,four)
 }
 func returnThreeAndFour() (int,int) {
